@@ -49,8 +49,37 @@ input[type="checkbox"]:focus {
 
 .botao-padrao {
     background-color: var(--marrom-claro) !important;
+    color: black;
 }
 
 .botao-padrao:hover {
     background-color: var(--marrom-escuro) !important;
+}
+
+
+.input-range::-webkit-slider-thumb,
+footer {
+    background-color: var(--marrom-claro);
+}
+
+
+
+[data-bs-theme="dark"] {
+    color: white;
+
+    .nav-link,
+    .card-body,
+    .offcanvas,
+    .accordion,
+    .btn,
+    .link-dark {
+        --bs-nav-link-color: white;
+        --bs-card-color: white;
+        --bs-offcanvas-color: white;
+        --bs-body-color: white;
+        --bs-body-color: white;
+        --bs-dark-rgb: white;
+
+
+    }
 }
